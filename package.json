@@ -1,6 +1,6 @@
 {
     "name": "datatables.net-rowgroup-bs4",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "RowGroup for DataTables with styling for [Bootstrap 4](http://getbootstrap.com/)",
     "files": [
         "css/rowGroup.bootstrap4.css"
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "jquery": ">=1.7",
-        "datatables.net-bs4": ">=1.10.13",
-        "datatables.net-rowgroup": ">=1.0.0"
+        "datatables.net-bs4": "^1.10.15",
+        "datatables.net-rowgroup": "1.0.1"
     },
     "style": "css/rowGroup.bootstrap4.css"
 }
