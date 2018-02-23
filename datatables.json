@@ -3,7 +3,10 @@
         "css/rowGroup.bootstrap4.css",
         "css/rowGroup.bootstrap4.min.css"
     ],
-    "js": [],
+    "js": [
+        "js/rowGroup.bootstrap4.js",
+        "js/rowGroup.bootstrap4.min.js"
+    ],
     "src-repo": "http://github.com/DataTables/RowGroup",
     "last-sync": "dd8bff8631835b55a933a08e455912ecbbf33496",
     "last-tag": "1.0.2"
