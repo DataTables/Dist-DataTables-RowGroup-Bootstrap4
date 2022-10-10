@@ -2,12 +2,14 @@
     "name": "datatables.net-rowgroup-bs4",
     "description": "RowGroup for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
     "main": "js/rowGroup.bootstrap4.js",
+    "module": "js/rowGroup.bootstrap4.mjs",
     "style": "css/rowGroup.bootstrap4.css",
     "types": "./types/rowGroup.bootstrap4.d.ts",
     "version": "1.2.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
+        "js/**/*.mjs",
         "types/**/*.d.ts"
     ],
     "keywords": [
