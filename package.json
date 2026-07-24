@@ -5,7 +5,7 @@
     "module": "js/rowGroup.bootstrap4.mjs",
     "style": "css/rowGroup.bootstrap4.css",
     "types": "./types/rowGroup.bootstrap4.d.ts",
-    "version": "2.0.0-beta.1",
+    "version": "2.0.0",
     "files": [
         "css/**/*.css",
         "js/**/*.js",
@@ -23,8 +23,8 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-rowgroup": "2.0.0-beta.1",
-        "datatables.net-bs4": "3.0.0-0"
+        "datatables.net-rowgroup": "2.0.0",
+        "datatables.net-bs4": "^3"
     },
     "author": {
         "name": "SpryMedia Ltd",
