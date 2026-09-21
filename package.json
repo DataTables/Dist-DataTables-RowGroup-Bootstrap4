@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-rowgroup-bs4",
     "description": "RowGroup for DataTables with styling for [Bootstrap4](https://getbootstrap.com/docs/4.6/getting-started/introduction/)",
-    "main": "js/rowGroup.bootstrap4.js",
-    "module": "js/rowGroup.bootstrap4.mjs",
-    "style": "css/rowGroup.bootstrap4.css",
+    "main": "./js/rowGroup.bootstrap4.js",
+    "module": "./js/rowGroup.bootstrap4.mjs",
+    "style": "./css/rowGroup.bootstrap4.css",
     "types": "./types/rowGroup.bootstrap4.d.ts",
     "version": "2.0.0",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "RowGroup",
@@ -36,5 +35,24 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/DataTables/RowGroup.git"
-    }
+    },
+    "exports": {
+        ".": {
+            "types": "./types/rowGroup.bootstrap4.d.ts",
+            "import": "./js/rowGroup.bootstrap4.mjs",
+            "default": "./js/rowGroup.bootstrap4.mjs",
+            "require": "./js/rowGroup.bootstrap4.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/rowGroup.bootstrap4.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
